@@ -1,0 +1,8 @@
+USE ecommerce;
+
+CREATE TABLE IF NOT EXISTS vendedor (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(128) NOT NULL,
+    cnpj VARCHAR(14) NOT NULL,
+    endereco VARCHAR(256) NOT NULL
+);

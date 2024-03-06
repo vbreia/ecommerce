@@ -1,0 +1,8 @@
+USE ecommerce;
+
+CREATE TABLE IF NOT EXISTS clientes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(128) NOT NULL,
+    documento VARCHAR(14) NOT NULL,
+    endereco VARCHAR(256) NOT NULL
+);
