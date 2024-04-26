@@ -1,6 +1,5 @@
 # Ecommerce/marketplace
 
-
 - clientes
 - produtos
 - vendas
